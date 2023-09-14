@@ -128,6 +128,7 @@ int main()
      printf("\t\t1- Cadrastar Usuario\n\n");
      printf("\t\t2- Consultar Usuario\n\n");
      printf("\t\t3- Apagar Usuario\n\n");
+     printf("\t\t4- Sair do programa\n\n");
      printf("opções:");
 
      scanf("%d", &opcao);
@@ -145,6 +146,10 @@ int main()
 
          case 3:
             apagar();
+            break;
+         case 4:
+            printf("Obrigado por utilizar o programa");
+            return 0;
             break;
 
         default:
